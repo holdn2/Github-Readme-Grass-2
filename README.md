@@ -9,13 +9,13 @@ GitHub README에 넣을 수 있는 2D 잔디형 contribution calendar SVG genera
 배포 후 아래처럼 README에 넣으면 됩니다.
 
 ```md
-![Real Grass](https://your-deployment.example.com/api/grass?username=YOUR_GITHUB_USERNAME)
+![Real Grass](https://github-readme-grass-2.vercel.app/api/grass?username=YOUR_GITHUB_USERNAME)
 ```
 
 연도와 범례 표시 여부도 조정할 수 있습니다.
 
 ```md
-![Real Grass](https://your-deployment.example.com/api/grass?username=YOUR_GITHUB_USERNAME&year=2026&legend=false)
+![Real Grass](https://github-readme-grass-2.vercel.app/api/grass?username=YOUR_GITHUB_USERNAME&year=2026&legend=false)
 ```
 
 ## 로컬 실행
@@ -28,7 +28,7 @@ npm run dev
 브라우저에서 아래 주소를 열어 확인합니다.
 
 ```txt
-http://127.0.0.1:4173/api/grass?username=octocat
+http://github-readme-grass-2.vercel.app/api/grass?username=octocat
 ```
 
 ## 배포
