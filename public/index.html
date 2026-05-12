@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Real Grass GitHub Contributions</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #e4d58a;
+        color: #3f351a;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(920px, calc(100vw - 32px));
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: 2rem;
+      }
+
+      p {
+        color: #66582d;
+        line-height: 1.6;
+      }
+
+      code {
+        display: block;
+        margin-top: 18px;
+        padding: 14px;
+        overflow-x: auto;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.42);
+      }
+
+      img {
+        max-width: 100%;
+        margin-top: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Real Grass</h1>
+      <p>GitHub README에서 사용할 수 있는 pixel grass contribution calendar SVG generator입니다.</p>
+      <code>![Real Grass](/api/grass?username=YOUR_GITHUB_USERNAME)</code>
+      <img src="/api/grass?username=octocat" alt="Real Grass example" />
+    </main>
+  </body>
+</html>
